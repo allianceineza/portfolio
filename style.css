@@ -1,0 +1,501 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Navigation */
+header {
+    background: white;
+    padding: 10px 0;
+    border-bottom: 2px solid #ccc;
+    color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+    color: black;
+    background-color: white;
+    
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+   
+}
+
+nav ul li ab {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+   margin-top: 0%;
+   padding: 0 20px;
+   margin-bottom: 0%/* General Section Styling */
+}
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.about-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-text .subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.download-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Active Navigation Link */
+nav ul li ab.active {
+    color: #fff;
+    background: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+};
+.hero-text h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.hire-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-image img {
+    max-width: 300px;
+    border-radius: 10px;
+    padding-right: 0cap;
+    display: block;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+ab{
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    padding-left: 25px;
+}
+.box{
+    width: 100%;
+    height: 40px;
+    background-color:#737373;
+}
+/* General Section Styling */
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.image2-removebg-preview img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+.about-text {
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.about-text .subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.about-text h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.about-text p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.download-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Active Navigation Link */
+nav ul li ab.active {
+    color: black;
+    background: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+/* Services Section */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Navigation */
+header {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    color: white;
+    background-color: black;
+}
+
+nav .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+nav div {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+nav  a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+nav div  a.active,
+nav div a:hover {
+    text-decoration: underline;
+}
+
+/* Services Section */
+.services {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+}
+
+.services h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    background: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 300px;
+    color: white;
+}
+
+.service-box h2 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.service-box p {
+    font-size: 0.9em;
+    color: white;
+}
+/* Skills Section */
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.skills h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.skills .subtitle {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.skills-text {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+}
+
+.skills-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.skills-text p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.skills-text .btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+/* Image Section */
+.skills-image {
+    flex: 1;
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-image img {
+    max-width: 900%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.contact h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.contact .subtitle {
+    background: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 50px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 0.9em;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.contact-info ul {
+    list-style: none;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.contact-info ul li strong {
+    font-weight: bold;
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 1;
+    max-width: 500px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form .form-row {
+    display: flex;
+    gap: 10px;
+}
+
+.contact-form .form-row input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.contact-form textarea {
+    resize: none;
+}
+.contact-form button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 0.9em;
+    border-radius: 5px;
+}
+.contact-form button:hover {
+    background-color: #333;
+}
