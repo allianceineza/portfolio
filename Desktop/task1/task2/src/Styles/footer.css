@@ -137,3 +137,184 @@ footer {
     width: 200px;
     height: 40px;
 }
+
+
+/* Media Queries for Responsiveness */
+
+/* iPhone (portrait) */
+@media only screen and (max-width: 600px) {
+    .footer {
+        padding: 20px 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter, .contact-info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .email-box {
+        max-width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .payment-icons {
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .payment-icons img {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+/* iPad (portrait) and small screens */
+@media only screen and (max-width: 768px) {
+    .footer {
+        padding: 30px 50px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter, .contact-info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .email-box {
+        max-width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .payment-icons {
+        justify-content: center;
+    }
+
+    .payment-icons img {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+/* iPad (landscape) and small tablets */
+@media only screen and (max-width: 1024px) {
+    .footer {
+        padding: 40px 60px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 48%;
+    }
+
+    .payment-icons img {
+        width: 120px;
+        height: 45px;
+    }
+}
+
+/* Android phone (portrait) */
+@media only screen and (max-width: 640px) and (min-width: 600px) {
+    .footer {
+        padding: 20px 30px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter, .contact-info {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .email-box {
+        max-width: 100%;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .payment-icons {
+        justify-content: center;
+    }
+
+    .payment-icons img {
+        width: 100px;
+        height: 40px;
+    }
+}
+
+/* Android phone (landscape) */
+@media only screen and (max-width: 800px) and (min-width: 740px) {
+    .footer {
+        padding: 20px 40px;
+    }
+
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .column {
+        width: 48%;
+    }
+
+    .payment-icons img {
+        width: 120px;
+        height: 45px;
+    }
+}

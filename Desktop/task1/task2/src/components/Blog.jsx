@@ -41,7 +41,22 @@ const Blog=()=>{
                     <img src={post.image}/>
                     <div className="blog-content">
                         <p>{post.date}</p>
-                        <h1 className="blog-title">{post.Title}</h1>
+                        <h3 >{post.Title}</h3>
+                        <p>{post.Descrption}</p>
+                        </div>
+                        </div>
+                )
+            )
+            }
+        </div>
+
+        <div className="blog-container">
+            {blogposts.map((post)=>(
+                    <div className="blog-card">
+                    <img src={post.image}/>
+                    <div className="blog-content">
+                        <p>{post.date}</p>
+                        <h3 >{post.Title}</h3>
                         <p>{post.Descrption}</p>
                         </div>
                         </div>

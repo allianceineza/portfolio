@@ -43,12 +43,19 @@
                  <a href="#">Body Lotion</a>
                 <a href="#">Computer Gadget</a>
                 <a href="#">Electronics</a>
+                <a href="#">Fashion</a>
+                <a href="#">General</a>
+                <a href="#">Shoes</a>
+                <a href="#">Sports</a>
+                <a href="#">Wacthes</a>
+                <a href="#">Woman clothes</a>
             </div>
             <div className="column">
                 <h3>COMPANY</h3>
                 <a href="#">About</a>
                 <a href="#">Careers</a>
                 <a href="#">Help</a>
+                <a href="#">Contact</a>
             </div>
             <div className="column">
                 <h3>ABOUT</h3>
