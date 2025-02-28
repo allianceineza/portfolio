@@ -1,7 +1,7 @@
 import multer from "multer";
 import cloudinary from "../utils/cloudinary.js";
 import Product from "../models/productModel.js";
-import { Readable } from 'stream';
+import { Readable } from "stream";
 
 // Multer Storage (for handling file uploads)
 const storage = multer.memoryStorage();
@@ -31,7 +31,7 @@ export const createProduct = async (req, res) => {
         if (req.file) {
             try {
                 console.log("Uploading file to Cloudinary");
-                
+
                 // Create a stream from the buffer
                 const stream = Readable.from(req.file.buffer);
 
@@ -79,5 +79,77 @@ export const createProduct = async (req, res) => {
     }
 };
 
-// Export the multer middleware for use in routes
+
+export const getAllProduct = async (req, res) => {
+    try {
+        console.log("Fetching all products from database...");
+        const products = await Product.find({});
+        res.status(200).json(products);
+    } catch (error) {
+        console.error("Error fetching products:", error);
+        res.status(500).json({ message: "Error fetching products", error: error.toString() });
+    }
+};
+
+export const getAllProductById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        console.log(`Fetching product with ID: ${id}`);
+
+    
+        const product = await Product.findById(id);
+
+        if (!product) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        res.status(200).json(product);
+    } catch (error) {
+        console.error("Error fetching product by ID:", error);
+        res.status(500).json({ message: "Error fetching product", error: error.toString() });
+    }
+};
+
+
+export const updateProductById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        console.log(`Updating product with ID: ${id}`);
+
+        const updatedProduct = await Product.findByIdAndUpdate(id, req.body, { new: true });
+
+        if (!updatedProduct) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        res.status(200).json(updatedProduct);
+    } catch (error) {
+        console.error("Error updating product by ID:", error);
+        res.status(500).json({ message: "Error updating product", error: error.toString() });
+    }
+};
+
+
+export const deleteProductById = async (req, res) => {
+    try {
+        const { id } = req.params;
+        console.log(`Fetching product with ID: ${id}`);
+
+    
+        const deleteProduct = await Product.findByIdAndDelete(id);
+
+        if (!deleteProduct) {
+            return res.status(404).json({ message: "Product not found" });
+        }
+
+        res.status(200).json(deleteProduct);
+    } catch (error) {
+        console.error("Error fetching product by ID:", error);
+        res.status(500).json({ message: "Error fetching product", error: error.toString() });
+    }
+};
+
+
+
+
 export const uploadMiddleware = upload.single("image");
