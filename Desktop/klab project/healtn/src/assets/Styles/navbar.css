@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-container {
+    position: relative; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+}
+
+/* Logo Styling */
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color:#004d42;
+    display: flex;
+}
+.logo img{
+font-size: 20px;
+width: 70px;
+
+}
+.logo h1{
+  color:  #004d42; 
+  margin-top: 10px;
+}
+/* Navigation Links */
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.nav-links a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #02836f;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-links a:hover {
+    color: #02836f;
+}
+
+Location Dropdown
+.location-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.location-container select {
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    padding-right: 2px;
+    color: #004d42;
+   
+}
+
+ /* .location-container::after {
+    content: "▼";
+    font-size: 12px;
+    margin-left: 5px;
+}  */
+
+/* Buttons */
+.navbar-locationcontainer {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+/* .navbar-locationcontainer button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #004d42;
+    cursor: pointer;
+} */
+
+.navbar-locationcontainer button {
+    padding: 8px 16px;
+    background-color: #004d42;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.navbar-locationcontainer button:hover {
+    background-color: #02836f;
+}
+
+/* Search & Menu Icons */
+.search-menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.search-icon, .menu-icon {
+    font-size: 40px;
+    cursor: pointer;
+    color: #333;
+}
+
+.search-icon:hover, .menu-icon:hover {
+    color: #02836f;
+}
+.navbar-locationcontainer{
+    display: flex;
+    margin-left: 30px;
+}

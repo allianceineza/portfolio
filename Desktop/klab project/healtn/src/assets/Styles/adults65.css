@@ -1,0 +1,209 @@
+.adults65-container{
+    display: flex;
+
+}
+.adults-text{
+    width: 50%;
+}
+.adults-text p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin-right: 60px;
+    color: rgb(33, 122, 148);
+    margin-top: 130px;   
+    margin-bottom: 300px;
+    margin-left: 250px;
+    margin-right: 250px;
+   
+
+}
+.adults-text h1{
+    color: rgb(22, 69, 85);
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin-top: 250px;
+    margin-bottom: 60px;
+}
+.adult-image img{
+    width: 50vw;  
+    height: 80vh;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;    
+}
+.adult-image {
+    width: 35%;
+    height: 100%;
+    object-fit: cover; 
+   
+}
+.submit-btn{
+    background-color:  rgb(22, 69, 85) ;
+    color: white;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+
+
+
+.care-goes{
+    background-color: white;
+    /* background-color:  #eaf5f4; */
+    
+}
+
+.select-location h1{
+    color:  #004d42;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+     margin-top: 110px; 
+     padding-left: 30px;
+     margin-bottom: 80px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px; 
+    justify-content: center; 
+    align-items: center;
+    padding: 20px; 
+}
+.button-container select{
+    background-color:  #004d42;
+    color: white; 
+    font-size: 26px;
+}
+
+.submit-btn {
+    background-color:  #004d42; 
+    color: white; 
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.submit-btn:hover {
+    background-color:  #004d42; 
+    transform: scale(1.05); 
+}
+.healthnet-seniors h1{
+    color:  #004d42;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+     margin-top: 110px; 
+     padding-left: 30px;
+     margin-bottom: 10px;  
+}
+.healthnet-seniors h4{
+    color:  #004d42;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+     margin-top: 110px; 
+     padding-left: 30px;
+     margin-bottom: 80px;  
+}
+.healthnet-seniors p{
+    color:  #004d42;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh; 
+     /* margin-top: 10px;  */
+     padding-left: 30px;
+   
+}
+.healthnet-exceptional p{
+    color:  #004d42;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4vh; 
+      margin-top: 70px;  
+     padding-left: 260px;
+     margin-bottom: 90px;
+     width: 85%;
+
+}
+.healthnet-exceptional h1{
+    color:  #004d42;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh; 
+      margin-top: 130px; 
+     padding-left: 30px;   
+
+}
+.redyto-schedule h1{
+    color:  #004d42;
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6vh; 
+      margin-top: 170px; 
+     padding-left: 30px;  
+}
+.getstarted-btn {
+    background-color:  #004d42; 
+    color: white; 
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 750px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}

@@ -1,0 +1,171 @@
+/* .background-slider {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 1s ease-in-out; /* Smooth fade effect */ */
+    
+.home-container {
+    width: 100vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    .background-slider {
+        background-image: url('../imageh/home2.jpg');
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       
+       width: 100vw; 
+       height: 90vh; 
+   
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       text-align: center; 
+       transition: background-image 1s ease-in-out;
+        
+       }
+   
+    .text-content  {
+        
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+            text-align: center;
+            /* Optional styling */
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            padding: 0 20px;
+          margin-top: 170px;
+    }
+    .text-content button{
+        background-color:  #004d42; 
+        color: white; 
+        font-weight: bold;
+        font-size: 30px;
+        padding: 12px 24px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        margin-top: 60px;
+        margin-bottom: 54px;
+    }
+
+    .mentalhealth-p{
+        font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin-right: 60px;
+    color:  rgb(22, 69, 85);
+    margin-top:100px;   
+    margin-bottom: 100px;
+    margin-left: 500px;
+    margin-right: 150px;
+    width: 50%;
+    }
+
+
+    .howwecanhelp-container{
+        display: grid;
+        margin-top: 50px;
+        grid-template-columns: repeat(4, 1fr);
+        width: 100px;
+        margin-left: 140px;
+    }
+    .howwecan-help h1{
+        color:  #004d42;
+        font-size: 100px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; 
+        margin-top: 50px;
+        margin-bottom: 5px;
+        margin-left: 10px;  
+    }
+    .wecanhelp-descriptions p{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh; 
+        margin-right: 60px;
+        color:  rgb(22, 69, 85);
+        /* margin-top:5px;    */
+        margin-bottom: 10px;
+        margin-left: 60px;
+        margin-right: 20px;
+        width: 50%;
+    }
+    .wecanhelp-descriptions h4{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh; 
+        margin-right: 60px;
+        color:  rgb(22, 69, 85);
+        margin-top:5px;   
+        margin-bottom: 7px;
+        margin-left: 110px;
+        margin-right: 50px; 
+        width: 50%;  
+    }
+   
+    .wecanhelpprofile-container{
+    
+        width: 300px;
+        height: 320px;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        /* justify-content: center;
+        align-items: center; */
+        background-color: #f0f0f0; 
+        /* text-align: center; */
+        display: flex;
+        /* justify-content: center;
+        align-items: center;  */
+        
+        margin-top:10px;   
+        margin-bottom: 10px;
+        margin-left: 50px;
+        margin-right: 30px; 
+      }
+      
+      .wecanhelp-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+      }
+      .wecan-help{
+        display: block;
+        width: 100%;
+        margin-top: 60px;
+        gap: 0px;
+        
+  
+      }
+      

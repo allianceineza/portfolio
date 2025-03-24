@@ -1,0 +1,140 @@
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+
+
+
+
+.form {
+    background-color: white;
+    padding: 20px;
+    width: 30%; 
+    height: 65%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    border-radius: 8px; 
+}
+.form p,label,input,span{
+color:  rgb(22, 69, 85);
+}
+.checkbox {
+    color:  rgb(22, 69, 85);
+}  
+.input {
+    width: 100%; 
+    max-width: 300px; 
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    color:  rgb(22, 69, 85);;
+}
+
+
+.button:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+/* Header inside Form */
+.head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px; 
+}
+
+/* Model (Not clear usage, assuming you meant modal) */
+.model {
+    background-color: aqua;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .formcontainer {
+        width: 90%; 
+        padding: 30px; 
+    }
+
+    .input {
+        max-width: 100%;  
+    }
+
+    .form {
+        padding: 15px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .formcontainer {
+        width: 95%; 
+        padding: 20px; 
+    }
+
+    .input {
+        max-width: 100%;
+    }
+
+    .button {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    .head {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.forget{
+    display: flex;
+    justify-content: space-between;
+    padding-top: none;
+    padding-bottom: 20px;
+}
+.checkbox{
+    width: 10px;
+    height:10px;
+}
+.forget span{
+    padding-left:35px ;
+   
+}
+.signin-button{
+    padding-bottom: 20px;
+    background-color:  #004d42; 
+    width: 290px;
+    color: white;
+}

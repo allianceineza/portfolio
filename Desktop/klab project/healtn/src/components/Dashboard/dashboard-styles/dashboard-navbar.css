@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #004d42; 
+    padding: 10px 20px;
+    color: white;
+    margin-left: 250px;
+    position: fixed;
+    font-family: Arial, sans-serif;
+    width: 87%;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    display: column;
+  }
+  
+  .nav-left .menu-icon {
+    font-size: 22px;
+    cursor: pointer;
+  }
+  
+  .nav-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+  
+  .nav-item .nav-icon {
+    font-size: 18px;
+  }
+  
+  .nav-item span {
+    font-size: 14px;
+    color: white;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .notification {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .notification-dot {
+    position: absolute;
+    top: -2px;
+    right: -2px;
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    border-radius: 50%;
+  }
+  
+  .profile-img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 2px solid white;
+    cursor: pointer;
+  }
+  .logout-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #cc0000;
+  }
+  

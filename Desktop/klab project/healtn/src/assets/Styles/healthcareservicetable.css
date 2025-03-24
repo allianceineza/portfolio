@@ -1,0 +1,125 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 90px;
+  }
+  
+  /* Main Table Styling */
+  .healthcare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+  }
+  
+  .healthcare-table th,
+  .healthcare-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    color:  rgb(22, 69, 85);
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-weight: bold;
+    text-align: left;
+    padding-left: 10px;
+    color:  rgb(22, 69, 85);
+  }
+  
+  /* Alternating Row Background */
+  .healthcare-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover Effect */
+  .healthcare-table tr:hover {
+    background-color: #eef6f6;
+  }
+  
+  /* Membership Section (Green Box) */
+  .membership-header {
+    background-color: #e6f4ea;
+    font-weight: bold;
+    padding: 15px;
+    color:  rgb(22, 69, 85);
+  }
+  
+  .membership-info {
+    background-color: #d4edda;
+    font-weight: bold;
+    color:  rgb(22, 69, 85);
+  }
+  
+  /* Copay Section (Blue Box) */
+  .copay-header {
+    background-color:#d4edda;
+    font-weight: bold;
+    padding: 15px;
+    color:  rgb(22, 69, 85);
+  }
+  
+  .copay-info {
+    background-color:#d4edda;
+    font-weight: bold;
+    color:  rgb(22, 69, 85);
+  }
+  
+  /* Yes/No Cells */
+  .yes-cell {
+    background-color: #e6f4ea;
+    font-weight: bold;
+  }
+  
+  .no-cell {
+    background-color: #f8d7da;
+    font-weight: bold;
+    color: #721c24;
+  }
+.included-membership{
+    
+    color: rgb(22, 69, 85);
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin-top: 50px;
+    margin-bottom: 130px;
+}  
+
+.paragraph{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    color:  rgb(22, 69, 85);
+}
+
+.signup-today {
+    background-color: #004d42;; /* Soft orange */
+    color: white;
+    padding: 12px 25px;
+    font-size: 40px;
+    font-weight: bold;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+}
+.signup-to-day{
+    margin-top: 100px;
+    margin-bottom: 90px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 600px;
+}
+.signup-to-day p, a{
+    gap: none;
+    color: rgb(22, 69, 85) ;
+}

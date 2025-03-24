@@ -1,0 +1,62 @@
+/* ActiveDoctors.css */
+.active-doctors-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 250px;
+    width: 50%;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  .doctor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .doctor-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .doctor-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .doctor-info {
+    flex: 1;
+  }
+  
+  .status-icon span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .active {
+    background: #28a745;
+    color: white;
+  }
+  
+  .inactive {
+    background: #007bff;
+    color: white;
+  }
+  

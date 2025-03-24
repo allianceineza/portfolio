@@ -1,0 +1,110 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: #004d42; 
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -135px;
+
+  min-height: 100vh;
+  overflow-y: auto;
+  position: fixed; 
+  top: 130px;
+  left: 0;
+  bottom: 0;
+  
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.profile-img {
+  width: 120px;
+  height: 100px;
+  border-radius: 70%;
+  border: 3px solid white;
+  margin: 10px 0;
+}
+
+.sidebar-header h3 {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+.sidebar-header p {
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+
+.sidebar-menu li {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar-menu li:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+/* Dropdown Styling */
+.dropdown {
+  font-weight: bold;
+}
+
+.submenu {
+  list-style: none;
+  padding-left: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 100%;
+}
+
+.submenu li {
+  padding: 8px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.submenu li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+}
+.menu-link {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-link:hover {
+  color: #f0f0f0;
+}
+

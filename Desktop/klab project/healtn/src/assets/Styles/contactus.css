@@ -1,0 +1,140 @@
+.contact-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-title {
+    font-size: 34px;
+    text-align: center;
+    color: #2d3e50;
+  }
+  
+  .contact-subtext {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #6b7c93;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .form-input,.form-select,  .form-textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  
+  .form-textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+  }
+  
+  .form-label {
+    font-size: 14px;
+    color: #333;
+   
+  }
+  
+  .error-border {
+    border: 1px solid white;
+  }
+  
+  .error-text {
+    color: white;
+    font-size: 12px;
+  }
+  
+  .form-checkbox {
+    display: flex;
+    align-items: center;
+   
+  
+  }
+  .form-checkbox input{
+    padding: 0%;
+    margin: 0%;
+    gap: 0px;
+  }
+  
+  
+  .submit-btn {
+    background: #00473e;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 34px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 190px;
+  }
+  
+  .submit-btn:hover {
+    background: #00332a;
+  }
+  
+  .form-footer {
+    font-size: 12px;
+    text-align: center;
+    color: #6b7c93;
+  }
+  
+  .form-footer a {
+    color: #00473e;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0%;
+    padding: 0%;
+  }
+  .healthnetabout h1{
+    color: rgb(22, 69, 85);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7vh; 
+    margin-top: 50px;
+  }
+  .healthnetabout p{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin-right: 60px;
+    color: #6b7c93;
+    margin-top: 30px;   
+    margin-bottom: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  

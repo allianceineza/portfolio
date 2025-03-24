@@ -1,0 +1,52 @@
+/* HospitalList.css */
+.hospital-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    margin-left: 255px;
+    margin-top: 70px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .doctor-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    width: 450px;
+    height: 140px;
+   
+  }
+  
+  .doctor-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .doctor-info {
+    flex: 1;
+  }
+  
+  .specialty {
+    color: gray;
+    font-size: 0.9em;
+  }
+  
+  .location {
+    font-size: 0.9em;
+  }
+  
+  .options-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
